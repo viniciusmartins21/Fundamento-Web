@@ -1,0 +1,117 @@
+/* Estilos da pagina index.html Atividade 1*/
+
+/* fontes utilizadas */
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Gloria+Hallelujah&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../images/clouds.jpg);
+    /* background-repeat: repeat-x; */
+}
+
+
+/* INICIO --formatação do menu de navegação */
+nav{
+    height:100px;
+    /* width: 100%; */
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    
+}
+
+.backgroundnav{
+    background-image:url("../images/barco\ a\ deriva.jpg");
+    background-size:cover;
+    background-position-y:center;
+    background-clip: initial;
+}
+
+
+ul{
+    margin-left: 44px;
+}
+
+
+#menu li{ 
+    font-family: 'Gloria Hallelujah', cursive;
+    padding: 15px;
+    display: inline;
+    font-size: 16px;
+}
+
+#menu li a{
+    text-decoration:none;
+    color: #F2F2F2;
+    background-color: #69BFB7;
+    /* border-radius: 10px; */
+    padding: 5px;
+    border:solid 1px F2F2F2;
+    border-radius: 15px;
+}
+
+#menu li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #BF2121;
+    border-color: black;
+    border:solid 1px black;
+}
+/* FIM -- formatação do menu de navegação */
+
+
+
+/* formatação textos da pagina */
+p{
+    font-family: 'Delius Swash Caps', cursive;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 550;
+}
+
+h1,h2,h3{
+    font-family: 'Gloria Hallelujah', cursive; 
+    text-align: center;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+/* formataçã imagens do jogo  */
+
+.containerimagem{
+    display:flex;
+    flex-flow: row;
+    width: 100%;
+    /* flex-flow: row; */
+    
+}
+
+
+.imagensjogo {
+    height: 300px;
+}
+
+
+/* Estilos da pagina Personagens Atividade 1*/
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Gloria+Hallelujah&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+
+.imgpersonagens{
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+
