@@ -76,7 +76,6 @@ ul{
 /* formatação textos da pagina */
 p{
     font-family: 'Delius Swash Caps', cursive;
-    /* text-align: center; */
     margin: 10px;
     padding: 10px;
     font-weight: 500;
@@ -98,8 +97,8 @@ h2{
 
 
 .imagensjogo {
-    height: 51vh;
-    width:51vh;
+    height: 45vh;
+    width:24vw;
 }
 
 .tam-social{
