@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Personagens Spiritfarer</title>
 
-    <link rel="stylesheet" href="../Assets/CSS/style.css">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
 
 </head>
 <body>
@@ -34,7 +35,7 @@
 
     <section class="imgpersonagens">
 
-            <img  src="../Assets/images/Stella.png" alt="">
+            <img  src="./Assets/images/Stella.png" alt="">
 
     </section>
         
@@ -44,7 +45,7 @@
 
         <section class="imgpersonagens">
 
-            <img  src="../Assets/images/Albert.png" alt="">
+            <img  src="./Assets/images/Albert.png" alt="">
         
         </section>   
 
@@ -55,7 +56,7 @@
 
         <section class="imgpersonagens">
 
-            <img src="../Assets/images/Alex.jpg" alt="">
+            <img src="./Assets/images/Alex.jpg" alt="">
 
         </section>
        
@@ -71,7 +72,7 @@
 
         <section class="imgpersonagens">
 
-            <img src="../Assets/images/Alice.png" alt="">
+            <img src="./Assets/images/Alice.png" alt="">
 
         </section>
        
@@ -85,7 +86,7 @@
 
         <section class="imgpersonagens">
 
-            <img src="../Assets/images/Astrid.png" alt="">
+            <img src="./Assets/images/Astrid.png" alt="">
 
         </section>
       
@@ -110,7 +111,7 @@
 
         <section class="imgpersonagens">
 
-            <img src="../Assets/images/Atul.png" alt="">
+            <img src="./Assets/images/Atul.png" alt="">
 
         </section>
            
@@ -124,7 +125,7 @@
 
             <section class="imgpersonagens">
 
-                <img src="../Assets/images/Bruce & Mickey.png" alt="">
+                <img src="./Assets/images/Bruce & Mickey.png" alt="">
 
             </section>
            
@@ -139,7 +140,7 @@
 
             <section  class="imgpersonagens">
 
-                <img src="../Assets/images/Buck.png" alt="">
+                <img src="./Assets/images/Buck.png" alt="">
 
             </section>
             
@@ -152,7 +153,7 @@
 
             <section class="imgpersonagens"> 
 
-                <img src="../Assets/images/Daffodil.png" alt="">
+                <img src="./Assets/images/Daffodil.png" alt="">
 
             </section>
     
@@ -172,7 +173,7 @@
 
             <section class="imgpersonagens">
 
-                <img src="../Assets/images/Elena.png" alt="">
+                <img src="./Assets/images/Elena.png" alt="">
 
             </section>
            
@@ -188,7 +189,7 @@
 
                 <section class="imgpersonagens">
 
-                    <img src="../Assets/images/Gustav.png" alt="">
+                    <img src="./Assets/images/Gustav.png" alt="">
 
                 </section>
 
@@ -201,7 +202,7 @@
 
             <section class="imgpersonagens">
 
-                <img src="../Assets/images/Gwen.png" alt="">
+                <img src="./Assets/images/Gwen.png" alt="">
 
             </section>
            
@@ -217,7 +218,7 @@
 
             <section class="imgpersonagens">
 
-                <img src="../Assets/images/Giovanni.png" alt="">
+                <img src="./Assets/images/Giovanni.png" alt="">
 
             </section>
           
@@ -241,7 +242,7 @@
 
             <section class="imgpersonagens">
 
-                <img src="../Assets/images/Stanley.png" alt="">
+                <img src="./Assets/images/Stanley.png" alt="">
 
             </section>
           
@@ -262,7 +263,7 @@
 
             <section class="imgpersonagens"> 
 
-                <img src="../Assets/images/Summer.png" alt="">
+                <img src="./Assets/images/Summer.png" alt="">
 
             </section>
           
@@ -285,19 +286,24 @@
                     <!-- INICIO formulario de preenchimento spirit's -->
             <form action="">
 
-                <label for="nome">Nome:</label> <br>
-                <input type="text" id="nome">
+                <label for="nome " class="txtforms">nome:</label> <br>
+                <input type="text" id="nome" onkeyup= 'validaNome()'>
+                <!-- validação -->
+                <div id="txtNome"> </div>
+                <br>
+                <label for="animal" class="txtforms" >Qual Forma de animal voce acha que seria?</label> <br>
+                <input type="text" id="animal" onkeyup= 'validaAnimal()'>
+                <!-- validação -->
+                <div id="txtAnimal"> </div>
                 <br>
                 <br>
-                <label for="spirit">Qual Forma de animal voce acha que seria?</label> <br>
-                <input type="text" id="spirit">
-                <br>
-                <br>
-                <label for="spirit">Qual das formars apresentadas voce se assemelha mais? E porque acha isso?</label> <br>
-                <textarea name="spirit" id="" cols="55" rows="6"></textarea>
-                <br>
-                
-                <button>Enviar</button>
+                <label for="assunto" class="txtforms" >Qual das formars apresentadas voce se assemelha mais? E por que acha isso?</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup='validaAssunto()'> </textarea>
+                <div id="txtAssunto"> </div>
+
+                <br>     
+
+                <button onclick= "enviar()" class="txtforms colorbt paddingbt"> Enviar </button>
 
             </form>
         </section>
@@ -305,7 +311,7 @@
         <!-- imagem do portal do alem -->
         <section class="ml-40">
 
-            <img id="tm-portal" src="../Assets/images/portal do além.jpg" alt="">
+            <img id="tm-portal" src="./Assets/images/portal do além.jpg" alt="">
 
         </section>
 
@@ -323,13 +329,17 @@
        
            <div class="centralizar">
                <a href="https://www.linkedin.com/in/vinicius-martins-713289125/" target="_blank">
-                   <img class="tam-social nav" src="../Assets/images/linkedin-icon.png" alt="Logo do Linkedin">
+                   <img class="tam-social nav" src="./Assets/images/linkedin-icon.png" alt="Logo do Linkedin">
                </a>
                
            </div>
-       
+        
        </footer>
-       
-       
+
+
+       <!-- implementando javascript -->
+       <script src="./Assets/Js/script.js"></script>
+
+
 </body>
 </html>

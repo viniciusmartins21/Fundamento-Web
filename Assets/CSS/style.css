@@ -57,7 +57,6 @@ ul{
     text-decoration:none;
     color: #F2F2F2;
     background-color: #69BFB7;
-    /* border-radius: 10px; */
     padding: 5px;
     border:solid 1px F2F2F2;
     border-radius: 15px;
@@ -73,6 +72,7 @@ ul{
 
 
 
+
 /* formatação textos da pagina */
 p{
     font-family: 'Delius Swash Caps', cursive;
@@ -85,6 +85,16 @@ p{
 h1,h2,h3{
     font-family: 'Gloria Hallelujah', cursive; 
     text-align: center;
+}
+
+.txtforms{
+    font-family: 'Gloria Hallelujah', cursive; 
+}
+
+.colorbt {
+    background-color: #f2f2f2;
+    border:solid 1px #7C6C53;
+    padding: 4px;
 }
 
 h2{
@@ -127,12 +137,23 @@ h2{
 }
 
 
+.semdecoração{
+    text-decoration: none;
+}
+
 .ml-40{
     margin-left: 40px;
-    height: 208px;
+    height: 285px;
+    align-items: center;
+    justify-content: center;
 }
 
 
 #tm-portal{
     height: 100%;
+    /* margin: auto; */
 }
+
+/* #txtNome {
+    ba
+} */
