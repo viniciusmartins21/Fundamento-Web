@@ -1,159 +1,39 @@
-/* Estilos da pagina index.html Atividade 1*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-/* fontes utilizadas */
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Gloria+Hallelujah&display=swap');
-
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
-    background-image: url(../images/cloud\ blues\ constance\ photoshop.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
-}
-
-
-/* classe universal de centralização de objetos div */
-.centralizar{
-    display:flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/* INICIO --formatação do menu de navegação */
-nav{
-    height:100px;
-    display:flex;
-    flex-flow: row;
-    align-items: center;
-}
-
-.backgroundnav{
-    background-image:url("../images/barco\ a\ deriva.jpg");
-    background-size:cover;
-    background-position-y:center;
-    background-position-x:center;
-}
-
-
-ul{
-    margin-left: 44px;
-}
-
-
-#menu li{ 
-    font-family: 'Gloria Hallelujah', cursive;
-    padding: 15px;
-    display: inline;
-    font-size: 16px;
-}
-
-#menu li a{
-    text-decoration:none;
-    color: #F2F2F2;
-    background-color: #69BFB7;
-    padding: 5px;
-    border:solid 1px F2F2F2;
-    border-radius: 15px;
-}
-
-#menu li a:hover {
-    color: #69BFB7;
-    background-color: #7C6C53;
-    border-color: 69BFB7;
-    border:solid 2px #69BFB7;
-}
-/* FIM -- formatação do menu de navegação */
-
-
-
-
-/* formatação textos da pagina */
-p{
-    font-family: 'Delius Swash Caps', cursive;
-    margin: 10px;
-    padding: 10px;
-    font-weight: 500;
-    text-align: justify;
-}
-
-h1,h2,h3{
-    font-family: 'Gloria Hallelujah', cursive; 
-    text-align: center;
-}
-
-.txtforms{
-    font-family: 'Gloria Hallelujah', cursive; 
-}
-
-.colorbt {
-    background-color: #f2f2f2;
-    border:solid 1px #7C6C53;
-    padding: 4px;
-}
-
-h2{
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-/* formatação imagens do jogo  */
-
-
-
-.imagensjogo {
-    height: 45vh;
-    width:24vw;
-}
-
-.tam-social{
-    width: 45px;
-    height: 45px;
-}
-
-.mgbottom-45{
-    margin-bottom: 45px;
-}
-
-
-/*  Estilos da pagina --Personagens.html-- Atividade 1  */
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Gloria+Hallelujah&display=swap');
-
-*{
-    margin: 0px;
-    padding: 0px;
+.font-family{
+    font-family: 'Roboto Condensed', sans-serif;
 } 
 
-.imgpersonagens{
-    display:flex;
-    justify-content: center;
-    padding-bottom: 75px;
+.bg-orange{
+    background-color: #3A3B32;
 }
 
 
-.semdecoração{
-    text-decoration: none;
-}
-
-.ml-40{
-    margin-left: 40px;
-    height: 285px;
-    align-items: center;
-    justify-content: center;
+.text-weight{
+    font-weight: 550;
+    font-size: large;
 }
 
 
-#tm-portal{
-    height: 100%;
-    /* margin: auto; */
+#logoajuste{
+    width: 90px;
+    height: 70px;
+    padding: -2px;
+    margin: -2px;
 }
 
-/* #txtNome {
-    ba
-} */
+.background-mw{
+    background-image: url();
+}
+
+.tm-social{
+    height: 45px;
+    width: 45px;
+}
+
+.imgbg{
+    width: auto;
+    height: auto;
+    background-image: url();
+}
+
